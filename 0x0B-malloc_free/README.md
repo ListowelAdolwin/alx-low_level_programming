@@ -1,1 +1,1 @@
-Task 0 of malloc, to create an array with values
+0x0B. C - malloc, free
