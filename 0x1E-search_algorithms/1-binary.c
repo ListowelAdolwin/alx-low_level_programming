@@ -35,7 +35,7 @@ int binary_search(int *array, size_t size, int value)
 				printf("%d, ", array[l_copy]);
 			else
 				printf("%d\n", array[l_copy]);
-				
+
 			l_copy++;
 		}
 
