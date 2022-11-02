@@ -31,10 +31,13 @@ int binary_search(int *array, size_t size, int value)
 		printf("Searching in array: ");
 		while (l_copy <= r_copy)
 		{
-			printf("%d ", array[l_copy]);
+			if (l_copy != r_copy)
+				printf("%d, ", array[l_copy]);
+			else
+				printf("%d\n", array[l_copy]);
+				
 			l_copy++;
 		}
-		printf("\n");
 
 		m = (l + r) / 2;
 		if (array[m] == value)
